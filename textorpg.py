@@ -76,7 +76,9 @@ def castelo():
 def finalA():
     print("╔══════════════════════════════════════════════════════════╗")
     print("║     Vincent derrota o Feiticeiro Negro e ele retorna em  ║")
-    print("║     segurança a vila com sua filha.                      ║")
+    print("║     segurança a vila com sua filha. Os itens coletados   ║")
+    print("║     em sua jornada o ajudarão a proteger sua vila de     ║")
+    print("║     futuras ameaças.                                     ║")
     print("║                                                          ║")
     print("║     Fim.                                                 ║")
     time.sleep(0.8)
@@ -89,13 +91,10 @@ def finalA():
                  
 def finalB():
     print("╔══════════════════════════════════════════════════════════╗")
-    print("║     Apos Vincent encontrar Aurora em uma sala trancada   ║")
+    print("║     Após Vincent encontrar Aurora em uma sala trancada   ║")
     print("║     ele consegue abrir a fechadura e libertar sua filha, ║")
     print("║     os dois deixam o castelo do feiticeiro e voltam      ║")
     print("║     para a vila.                                         ║")
-    print("║     Os itens coletado por Vincent ao longo da sua        ║")
-    print("║     jornada o ajudarão a protejer sua vila de futuros    ║")
-    print("║     ataques do Feitifeiro Negro.                         ║")
     print("║                                                          ║")
     print("║     Fim.                                                 ║")
     time.sleep(0.8)
