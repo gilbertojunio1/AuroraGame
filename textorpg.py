@@ -1,4 +1,3 @@
-
 import time
 
 def historia():
@@ -45,18 +44,67 @@ def historia():
 def caminho():
     time.sleep(0.8)
     print("╔══════════════════════════════════════════════════════════╗")
-    print("║     Vicent sai da sua vila em busca do castelo do        ║")
+    print("║     Vincent sai da sua vila em busca do castelo do       ║")
     print("║     Feiticeiro Negro.                                    ║")
     print("║     ⩥ Qual caminho ele deverá optar?                     ║")
     time.sleep(1)
     print("║                                                          ║")
-    print("║     A) Entrar na floresta e seguir um atalho?            ║")
+    print("║     1) Entrar na floresta e seguir um atalho?            ║")
     time.sleep(1)
-    print("║     B) Atravessar a ponte e seguir pelas vilas?          ║")
+    print("║     2) Atravessar a ponte e seguir pelas vilas?          ║")
     print("║                                                          ║")
     print("║                                                          ║")
     print("╚══════════════════════════════════════════════════════════╝")
 
+def vilas():
+    print("╔══════════════════════════════════════════════════════════╗")
+    print("║     Após horas de caminhada, Vincent encontra uma vila   ║")
+    print("║     abandonada e destruida. Atacado pela curiosidade,    ║")
+    print("║     o campones entrou em algumas casas em busca de       ║")
+    print("║     respostas do que aconteceu naquele local, ao entrar  ║")
+    print("║     numa das ultimas casas da vila ele encontra um bau   ║")
+    print("║     que continha uma carta e uma pedra estranha azul,    ║")
+    print("║     o camponês abriu a carta e nela estava escrita       ║")
+    print("║     'Ontem vi uma silhueta de uma forma mais negra do    ║")
+    print("║     que o escuro da noite'. Vincent já entendeu que o    ║")
+    print("║     Feiticeiro Negro passou na vila e destruiu tudo,     ║")
+    print("║     de uma hora para a outra a pedra azul começou a      ║")
+    print("║     ficar de forma liquida e a flutuar, e num piscar de  ║")
+    print("║     olhos a esfera entra no corpo do guerreiro Camponês. ║")
+    print("║     Vincent sente que há uma força estranha dentro dele  ║")
+    print("║     e nessa hora aparece um ORC furioso que avança para  ║")
+    print("║     cima do Camponês. Parece que não há uma saída !!     ║")
+    print("║                                                          ║")
+    print("║     A) Enfrentar o ORC ?                                 ║")
+    print("║     B) Enfrentar o ORC ?                                 ║")
+    print("║                                                          ║")
+    print("║                                                          ║")
+    print("╚══════════════════════════════════════════════════════════╝")
+    
+    
+def orc():
+    print("╔══════════════════════════════════════════════════════════╗")
+    print("║     O ORC avança com o seu machado levantado para cima   ║")
+    print("║     do Vincent, numa velocidade incrivel o Camponês      ║")
+    print("║     desvia por centimetros do machado afiado do ORC.     ║")
+    print("║     Vincent vê uma espada a metros dele, e mais uma      ║")
+    print("║     vez o ORC gira seu machado, mas sem êxito. Vincent   ║")
+    print("║     pega a espada e para o golpe mortal do ORC, quando   ║")
+    print("║     o gigante verde abre a sua guarda o Camponês enfia   ║")
+    print("║     sua espada no peito do monstro que já cai morto no   ║")
+    print("║     chão.                                                ║")
+    print("║     Foi nesse momento que Vincent percebeu que a pedra   ║")
+    print("║     azul deu-lhe força e agilidade, e dando esperança    ║")
+    print("║     para derrotar o Feiticeiro Negro e resgatar sua      ║")
+    print("║     filha.                                               ║")
+    print("║     ⩥ Qual caminho ele deverá optar?                     ║")
+    print("║                                                          ║")
+    print("║     3) Ir para o Castelo do Feiticeiro Negro ?           ║")
+    print("║                                                          ║")
+    print("║                                                          ║")
+    print("╚══════════════════════════════════════════════════════════╝")
+
+    
 
     
 def castelo():
@@ -66,14 +114,14 @@ def castelo():
     print("║     ⩥ Qual plano ele escolhe para resgatar Aurora?       ║")
     time.sleep(1)
     print("║                                                          ║")
-    print("║     A) Lutar contra o Feiticeiro Negro e mata-lo?        ║")
+    print("║     8) Lutar contra o Feiticeiro Negro e mata-lo?        ║")
     time.sleep(1)
-    print("║     B) Entrar escondido no castelo e fugir com Aurora?   ║")
+    print("║     9) Entrar escondido no castelo e fugir com Aurora?   ║")
     print("║                                                          ║")
     print("║                                                          ║")
     print("╚══════════════════════════════════════════════════════════╝")
 
-def finalA():
+def final8():
     print("╔══════════════════════════════════════════════════════════╗")
     print("║     Vincent derrota o Feiticeiro Negro e ele retorna em  ║")
     print("║     segurança a vila com sua filha. Os itens coletados   ║")
@@ -89,7 +137,7 @@ def finalA():
     print("║                      ☕ ZoC ☕                           ║")
     print("╚══════════════════════════════════════════════════════════╝")
                  
-def finalB():
+def final9():
     print("╔══════════════════════════════════════════════════════════╗")
     print("║     Após Vincent encontrar Aurora em uma sala trancada   ║")
     print("║     ele consegue abrir a fechadura e libertar sua filha, ║")
@@ -103,7 +151,3 @@ def finalB():
     print("║                                                          ║")
     print("║                    ☕ ZoC ☕                             ║")
     print("╚══════════════════════════════════════════════════════════╝")
-                 
-
-
-    
